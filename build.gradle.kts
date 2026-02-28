@@ -9,6 +9,7 @@ group = "pro.obydux"
 version = "${extra["plugin_version"]}${versionMetadata()}"
 
 repositories {
+    mavenLocal()
     mavenCentral()
     gradlePluginPortal()
     maven("https://hub.spigotmc.org/nexus/content/repositories/snapshots/")
