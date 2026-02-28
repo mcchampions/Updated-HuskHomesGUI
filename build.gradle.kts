@@ -86,6 +86,7 @@ license {
     newLine(true)
 }
 
+
 @SuppressWarnings("GrMethodMayBeStatic")
 fun versionMetadata(): String {
     // Get if there is a tag for this commit
