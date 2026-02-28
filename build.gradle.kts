@@ -80,17 +80,11 @@ tasks.jar {
     dependsOn("shadowJar")
 }
 
-tasks.test {
-    useJUnitPlatform()
-}
-
 license {
     setHeader(project.file("HEADER"))
     include("**/*.java")
     newLine(true)
 }
-
-logger.lifecycle("Building HuskHomesGUI ${version} by William278 & Obydux")
 
 @SuppressWarnings("GrMethodMayBeStatic")
 fun versionMetadata(): String {
